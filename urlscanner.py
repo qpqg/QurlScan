@@ -57,8 +57,8 @@ def start_all():
         th.start()
     [i.join()for i in t]
     print cl.dflt_end()
-    print "[+] ========== [ HIJO ] =========== [+]"
     if len(hijau) > 0:
+        print "[+] ========== [ HIJO ] =========== [+]"
         print "\n".join([hijau[i] for i in range(len(hijau))])
     print cl.dflt_end()
 if __name__ == '__main__':
